@@ -6,9 +6,9 @@ class HolaMundo extends React.Component {
         //Y siempre cerrar las etiquteas con "/"
         return (
             <div>
-                <p>Hola mundo</p>
+                <p>Hola {this.props.nombre} </p>
                 {/* Para comentar en windows y JSX es CTR+K+C y para borrar CTRL+K+U*/}
-                <p>Hola mundo</p>
+                <p>Edad: {this.props.edad}</p>
                 <br/>
             </div>
         )
