@@ -15,4 +15,9 @@ npm start
 npm install react-bootstrap bootstrap
 ```
 
+### Material Design
+1. [More info: cards](https://material-ui.com/components/cards/)
 
+```bash
+npm install @material-ui/core
+```
