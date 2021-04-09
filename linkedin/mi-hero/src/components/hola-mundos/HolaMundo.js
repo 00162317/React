@@ -11,6 +11,7 @@ class HolaMundo extends React.Component {
                 {/* Para comentar en windows y JSX es CTR+K+C y para borrar CTRL+K+U*/}
                 <p>Edad: {this.props.edad}</p>
                 <br/>
+                <p className={this.props.tipo}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet voluptatibus totam ut aliquam esse qui incidunt eveniet ad laborum dignissimos, beatae est, possimus dolorum adipisci similique, perspiciatis doloribus aliquid aperiam.</p>
             </div>
         )
     }

@@ -6,4 +6,4 @@ import './index.css';
 import HolaMundo from './components/hola-mundos/HolaMundo';
 
 //Llamando a la clase hola mundo
-render(<HolaMundo nombre="Roberto" edad="22"/>,document.querySelector('#root')); 
+render(<HolaMundo nombre="Roberto" edad="22" tipo="nota"/>,document.querySelector('#root')); 
