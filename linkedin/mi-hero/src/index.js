@@ -4,6 +4,18 @@ import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
 import HolaMundo from './components/hola-mundos/HolaMundo';
+import Router from './Router';
+
+const Root = () =>{
+    return(
+        <div>
+            <Router />
+        </div>
+    )
+}
+
+
+render(<Root/>, document.querySelector('#root2'))
 
 //Llamando a la clase hola mundo
-render(<HolaMundo nombre="Roberto" edad="22" tipo="nota"/>,document.querySelector('#root')); 
+//render(<HolaMundo nombre="Roberto" edad="22" tipo="nota"/>,document.querySelector('#root')); 
